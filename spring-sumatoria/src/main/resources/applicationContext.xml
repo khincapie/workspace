@@ -8,6 +8,8 @@
 	</bean>
 	
 	<bean id="miSumatoriaBean" class="beans.SumatoriaBeanSpring">
+		<property name="valor1" value="1" />
+		<property name="valor2" value="4" />
 		<property name="mensaje" value="La Suma es: " />
 	</bean>
 	
